@@ -6,7 +6,7 @@ exports.signup = async (req, res) => {
 
   try {
     const { name, email, password } = req.body;
-    console.log(req.body);
+    // console.log(req.body);
     // we are not covering if fields are empty we cover it in frontend itself
 
 // console.log(req.body);
